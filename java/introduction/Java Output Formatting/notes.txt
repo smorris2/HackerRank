@@ -1,13 +1,22 @@
 Task: print out a simple "hello, World!" prompt with a "Hello, Java!" prompt below.
 
-A simple task enough. Pre-made task does not include the last
+A simple task enough. 
+
+Pre-build appearance: 
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Print output to STDOUT. Your class should be named Solution. */
+        }
+}
 
 println is the basic output used for creating printed lines. 
 3 types of prints:
 
  * print   - basic print function. prints on same line. Not a lot of functionality.
  * println - print function that prints on the next line. Handy for input/output 
- * printf  - also can be called with System.out.format(). 
+ * printf  - also can be called with System.out.format(). selective formatting with print output.
 
 
 format specifiers:

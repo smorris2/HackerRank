@@ -1,0 +1,39 @@
+stdin - standard input
+stdout - standard output
+
+both are classes that handle interactions between between user and the computer.
+
+One way to read inputs from stdin is by using the Scanner class
+
+requirements:
+
+-needs to call util library (at top of page, type 'import java.util.*;' in most cases.)
+  -this will unlock all class libraries in util repository, including scanner and stds
+
+structure: 
+
+Scanner scanner = new Scanner(System.in);
+// classifies a new scanner with the name 'scanner'
+String myString = scanner.next();
+//variable string for example. scanner.next() calls all inputs in the function.
+int myInt = scanner.nextInt();
+//
+scanner.close();
+//closes scanner (important)
+System.out.println("myString is: " + myString);
+System.out.println("myInt is: " + myInt);
+
+preform:
+
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        //write code below///
+        }
+      }
